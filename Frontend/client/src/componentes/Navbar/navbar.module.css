@@ -1,0 +1,29 @@
+.navbar {
+    background: rgb(79, 150, 237);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.titulopagina {
+    color: rgb(255, 255, 255);
+}
+
+.listanav {
+    display: flex;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.listanav > li {
+    margin-left: 18px;
+    list-style: none;
+}
+
+.listanav > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

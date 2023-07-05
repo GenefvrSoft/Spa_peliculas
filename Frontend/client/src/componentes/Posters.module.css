@@ -1,0 +1,63 @@
+.contenedor {
+    background: #F1F5F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.contenedor:hover {
+    transform: scale(1.04);
+}
+
+.marco_poster {
+    width: 100%;
+}
+
+.Poster {
+    border-radius: 8px;
+    width: 100%;
+    min-height: auto;
+    object-fit: cover;
+}
+
+.tituloPelicula {
+    margin: 2.2px 0;
+    color: rgb(79, 150, 237);
+}
+
+.sinopsis {
+    padding: 10px;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 1270px) {
+    .contenedor {
+        width: 19rem;
+    }
+} 
+
+@media only screen and (max-width: 850px) {
+    .contenedor {
+        width: 21rem;
+    }
+} 
+
+@media only screen and (max-width: 440px) {
+    .contenedor {
+        width: 21rem;
+    }
+    
+} 
+
+@media only screen and (max-width: 350px) {
+    .contenedor {
+        width: 18rem;
+    }
+    
+} 
